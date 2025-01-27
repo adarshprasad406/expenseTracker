@@ -1,0 +1,28 @@
+.nav-pane {
+    background-color: #cbd0d7;
+    width: 25%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex:.25;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-pane button {
+    display: inline-block;
+    width: 90%;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-pane :hover {
+    background: #3498db;
+}

@@ -1,0 +1,44 @@
+/* Header.module.css */
+.Header {
+  background: #9ea9b8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.Header nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Header .button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Header .home-button {
+  background: #007BFF;
+}
+.Header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.header a:hover {
+  color: #d4d1d1;
+}
+
+.mainTitle{
+  /* padding: 10px; */
+  font-size: 30px;
+  font-style: italic; 
+  font-weight: bold;
+  color: #001f3f; 
+}

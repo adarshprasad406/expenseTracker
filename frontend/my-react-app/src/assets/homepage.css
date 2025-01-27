@@ -1,0 +1,71 @@
+/* HomePage.css */
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Set the minimum height of the container to at least 100% of the viewport height */
+  align-items: center;
+  justify-content: space-between;
+  /* Push content to the top and bottom */
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.homepage .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInUp 1s;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.homepage .header p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.homepage .actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  animation: fadeIn 1s 1s;
+}
+
+.homepage .actions .button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.homepage .actions .button:hover {
+  background: #3498db;
+}
+
+.homepage .actions .login-button {
+  background: #007BFF;
+}
+
+.homepage .actions .signup-button {
+  background: #28a745;
+}
+
+.homepage .footer {
+  margin-top: auto;
+  /* Push the footer to the bottom of the container */
+  font-size: 1rem;
+  color: #666;
+  animation: fadeIn 1s 2s;
+}
